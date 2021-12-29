@@ -105,3 +105,10 @@ setInterval(nextSlide, 2500)
 + **University:** [BELARUS STATE ECONOMIC UNIVERSITY](http://bseu.by/), Economist-Manager
 + **University:** [Belarusian State University of Food and Chemical Technologies](https://bgut.mogilev.biz/), Process Engineer
 + **Courses:** IT-Overone, WayUP, at moment student RS School
+
+### Languages:
+-------------------
++ **Russian:** native
++ **English:** [Linguistic Center BIGAPPLE](http://bigapple.by), Pre-Intermediate (CEFR A2+).
++ **English:**[EPAM English test result: A2](https://access.epam.com/auth/realms/plusx/protocol/openid-connect/auth?client_id=examinator-client&redirect_uri=https://examinator.epam.com/api/epam-sso&response_type=code&resource=https://examinator.epam.com&scope=email%20openid%20profile) 
++ **Spanish:** A1
