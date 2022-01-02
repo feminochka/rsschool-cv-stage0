@@ -24,8 +24,8 @@
             <div class="container border">
                 <img src="img/my_photo1.jpg" alt="photo" class="img">
                 <div class="title">
-                    <h1 class="name">
-                    YAUHENIYA PRYMERAVA
+                    <h1>
+                    <span class="name"> YAUHENIYA PRYMERAVA</span> 
                     </h1>
                     <h3 class="profession">FUTURE FRONT-END DEVELOPER</h3>
                 </div>
@@ -38,11 +38,11 @@
                         Contact information: 
                     </h2>
                     <ul class="contact-list">
-                        <li><span>Phone:</span>+375(29)132 54 33</li>
-                        <li><span>E-mail:</span> minsk1901masha@gmail.com</li>
-                        <li><span>GitHub:</span><a href="https://github.com/feminochka">feminochka</a></li>
-                        <li><span>Linkedin:</span><a href="https://www.linkedin.com/in/%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%D0%B0-0166b5b4/">Евгения Примерова</a></li>
-                        <li><span>discord-nik:</span>feminochka#8881</li>
+                        <li><b>Phone:</b> +375(29)132 54 33</li>
+                        <li><b>E-mail:</b> minsk1901masha@gmail.com</li>
+                        <li><b>GitHub: </b><a class="hover" href="https://github.com/feminochka"><span> feminochka</span></a></li>
+                        <li><b>Linkedin: </b><a class="hover" href="https://www.linkedin.com/in/%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%D0%B0-0166b5b4/"><span> Евгения Примерова</span></a></li>
+                        <li><b>discord-nik:</b> feminochka#8881</li>
                     </ul>               
                 </div>           
                 <div class="summary size">
@@ -78,18 +78,14 @@
                     <h2 class="my_code">
                         My code: 
                     </h2>
-                    <pre class="pre">
-                        <code class="code">
-def disemvowel(string_):
+<pre class="pre"><code class="code">def disemvowel(string_):
     vow = ["a", "e", "i", "o", "u"]
     new_string = []
     for i in string_:
         if i.lower() not in vow:
             new_string.append(i)
-    return "".join(new_string)                        
-
-                        </code>
-                    </pre>                    
+    return "".join(new_string)  
+</code></pre>                    
                 </div>  
             </div>
         </section>
@@ -100,10 +96,10 @@ def disemvowel(string_):
                         Languages: 
                     </h2>
                     <ul class="languages-list">
-                        <li><span>English: Pre-Intermediate (CEFR A2+)</span><br><a href="http://bigapple.by">Linguistic Center BIGAPPLE</a></li>
-                        <li><span>English: test result A2</span><br><a href="https://access.epam.com/auth/realms/plusx/protocol/openid-connect/auth?client_id=examinator-client&redirect_uri=https://examinator.epam.com/api/epam-sso&response_type=code&resource=https://examinator.epam.com&scope=email%20openid%20profile">EPAM English test</a></li>
-                        <li>Russian: native</li>
-                        <li>Spanish: A1</li>
+                        <li><b>English:</b> Pre-Intermediate (CEFR A2+)<br><a class="hover" href="http://bigapple.by"><span>Center BIGAPPLE</span></a></li>
+                        <li><b>English:</b> test result A2<br><a class="hover" href="https://access.epam.com/auth/realms/plusx/protocol/openid-connect/auth?client_id=examinator-client&redirect_uri=https://examinator.epam.com/api/epam-sso&response_type=code&resource=https://examinator.epam.com&scope=email%20openid%20profile"><span>English test</span></a></li>
+                        <li><b>Russian:</b> native</li>
+                        <li><b>Spanish:</b> A1</li>
                     </ul>               
                 </div>
                 <div class="size">
@@ -111,9 +107,9 @@ def disemvowel(string_):
                         Education: 
                     </h2>
                     <ul class="edication-list">
-                        <li><span>University: economist-manager</span><br><a href="http://bseu.by/">BELARUS STATE ECONOMIC UNIVERSITY</a></li>
-                        <li><span>University: process engineer</span><br><a href="https://bgut.mogilev.biz/">Belarusian State University of Food and Chemical Technologies</a></li>
-                        <li><span>Courses:</span>IT-Overone (Python); WayUP (CSS3, HTML); at moment student RS School</li>
+                        <li><b>University:</b> economist-manager<br><a class="hover" href="http://bseu.by/"><span>STATE ECONOMIC UNIVERSITY</span></a></li>
+                        <li><b>University:</b> process engineer<br><a class="hover" href="https://bgut.mogilev.biz/"><span>State University of Food and Chemical Technologies</span></a></li>
+                        <li><b>Courses:</b> IT-Overone (Python); WayUP (CSS3, HTML); at moment student RS School</li>
                     </ul>                
                 </div>
             </div>
@@ -122,7 +118,7 @@ def disemvowel(string_):
     <footer class="footer">
         <div class="container size direction">
             <div>
-                © 2022 <a href="https://github.com/feminochka"><img src="img/GitHub-Mark-32px.png" alt="GitHub_icon">feminochka</a>
+                <span class="color">© 2022</span><img src="img/GitHub-Mark-32px.png" alt="GitHub_icon"><a class="hover" href="https://github.com/feminochka"><span>feminochka</span></a>
             </div>
             <a href="https://rs.school/js/"><img src="img/logo_rs2.svg" alt="RSSchool_icon"></a>
         </div>
