@@ -1,4 +1,4 @@
 # rsschool-cv
-https://feminochka.github.io/rsschool-cv/cv-stage0
+https://feminochka.github.io/rsschool-cv-stage0/cv
 
-https://feminochka.github.io/rsschool-cv/
+https://feminochka.github.io/rsschool-cv-stage0/
